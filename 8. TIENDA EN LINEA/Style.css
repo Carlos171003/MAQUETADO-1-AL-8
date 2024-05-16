@@ -1,0 +1,38 @@
+/* 
+    Universidad Tecnológica Metropolitana
+    Aplicaciónes Web
+    Ruth Martínez Domínguez
+    Actividades HTML
+    TIENDA VIRTUAL
+    Carlos Antonio Sánchez Canul
+    3 Cuatrimestre
+    3°B
+    1 Parcial
+    Lunes 13 de mayo del 2024
+*/ 
+
+/* Estilo para elementos con la clase .titulo */
+.titulo {
+    color: white; /* Establece el color del texto en blanco */
+    text-shadow: -1px -1px 0 #000,   /* Agrega una sombra de texto negra desplazada -1px en la dirección x e y */
+                  1px -1px 0 #000,   /* Agrega una sombra de texto negra desplazada 1px horizontalmente y -1px verticalmente */
+                 -1px  1px 0 #000,   /* Agrega una sombra de texto negra desplazada -1px horizontalmente y 1px verticalmente */
+                  1px  1px 0 #000;   /* Agrega una sombra de texto negra desplazada 1px horizontalmente y 1px verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Estilo para elementos con la clase .galeria */
+.galeria {
+    color: black; /* Establece el color del texto en negro */
+    text-shadow: -1px -1px 0 white,   /* Agrega una sombra de texto blanca desplazada -1px en la dirección x e y */
+                  1px -1px 0 white,   /* Agrega una sombra de texto blanca desplazada 1px horizontalmente y -1px verticalmente */
+                 -1px  1px 0 white,   /* Agrega una sombra de texto blanca desplazada -1px horizontalmente y 1px verticalmente */
+                  1px  1px 0 white;   /* Agrega una sombra de texto blanca desplazada 1px horizontalmente y 1px verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Estilo para imágenes dentro de la clase .galeria cuando se pasa el cursor sobre ellas */
+.galeria img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% */
+    filter: drop-shadow(0 0 5px white); /* Agrega una sombra difusa blanca */
+}

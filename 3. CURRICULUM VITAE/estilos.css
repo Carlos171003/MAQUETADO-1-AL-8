@@ -1,0 +1,52 @@
+/* 
+    Universidad Tecnológica Metropolitana
+    Aplicaciónes Web
+    Ruth Martínez Domínguez
+    Actividades HTML
+    Curriculum Vitae
+    Carlos Antonio Sánchez Canul
+    3 Cuatrimestre
+    3°B
+    1 Parcial
+    Domingo 12 de mayo del 2024
+*/ 
+
+/* Se define una clase CSS llamada .galeria */
+.galeria {
+    /* Establece el contenedor de la galería como un contenedor flexible, lo que permite que sus elementos hijos se coloquen en una fila */
+    display: flex;
+    /* Distribuye los elementos hijos con un espacio uniforme alrededor de ellos, lo que los separa equitativamente en el contenedor */
+    justify-content: space-around;
+    /* Alinea los elementos hijos al principio del eje transversal (verticalmente en este caso), lo que los coloca en la parte superior del contenedor */
+    align-items: flex-start; 
+}
+
+/* Se redefine la clase .galeria */
+.galeria {
+    /* Se mantiene el contenedor como un contenedor flexible */
+    display: flex;
+    /* Se centra horizontalmente los elementos hijos en el contenedor */
+    justify-content: center; 
+    /* Se alinean los elementos hijos al principio del eje transversal (verticalmente en este caso) */
+    align-items: flex-start; 
+}
+
+/* Se aplica a todas las imágenes dentro de la galería */
+.galeria img {
+    /* Limita la altura máxima de las imágenes a 200 píxeles */
+    max-height: 200px; 
+    /* Permite que el ancho de las imágenes se ajuste automáticamente para mantener la proporción de aspecto original */
+    width: auto; 
+    /* Aplica un margen negativo en la parte superior e inferior de las imágenes para compensar el espacio agregado por los márgenes predeterminados */
+    margin: -10px 0; 
+    /* Define una transición suave de 0.3 segundos para el cambio de tamaño al pasar el mouse sobre las imágenes */
+    transition: transform 0.3s ease;
+}
+
+/* Se aplica cuando el mouse está sobre las imágenes */
+.galeria img:hover {
+    /* Escala las imágenes al 110% de su tamaño original al pasar el mouse sobre ellas, creando un efecto de zoom */
+    transform: scale(1.1);
+}
+
+

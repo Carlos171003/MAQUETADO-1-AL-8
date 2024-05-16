@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Formulario</title>
+</head>
+<body style="margin: 0;">
+
+    <!-- Estilos CSS en línea -->
+    <style>
+        label{
+            color: black;
+        }
+       
+        #formulario {
+            border: 10px solid black;
+            padding: 20px;
+           margin-bottom: 20px;
+       }
+        div {
+            text-align: center;
+           margin-bottom: 30px;
+        }
+
+    </style>
+    <!-- Enlace -->
+    <a class="btn-a" href="#">buton enlace</a>
+
+    <!-- Contenedor con imagen de fondo y formulario -->
+    <div class="content" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url('Nebulosa.jpg'); background-size: cover; background-position: center;">
+        <form action="datos.php" method="get" style="padding: 20px;">
+            <!-- Formulario con estilo en línea -->
+            <div id="formulario" style="border: 4px solid black; padding: 20px; margin-bottom: 20px;">
+                <div>
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" placeholder="Nombre" name="Nombre" id="Nombre">
+                </div>
+                <div>
+                    <label for="Correo Electronico">Correo Electronico :</label>
+                    <input type="email" placeholder="ejemplo@gmail.com">
+                </div>
+                <div>
+                    <label for="URL">URL    :</label>
+                    <input type="text" placeholder="Escribe La URL De Tu Pagina">
+                </div>
+                <div>
+                    <label for="Fecha De Nacimiento">Fecha De Nacimiento:</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label for="Tiempo">Tiempo:</label>
+                    <input type="time">
+                </div>
+                <div>
+                    <label for="Fecha Y Hora">Fecha Y Hora: </label>
+                    <input type="date">
+                    <input type="time">
+                </div>
+                <div>
+                    <label for="Mes">Mes: </label>
+                    <input type="month">
+                </div>
+                <div>
+                    <label for="Semana">Semana: </label>
+                    <input type="week">
+                </div>
+                <div>
+                    <label for="Número (min - 10, max 10)">Número (min - 10, max 10)</label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label for="Telefono">Telefono:</label>
+                    <input type="tel">
+                </div>
+                <div>
+                    <label for="Termino De Busqueda">Termino De Busqueda:</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="Color Favorito">Color Favorito: </label>
+                    <input type="color">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* 
+    Universidad Tecnológica Metropolitana
+    Aplicaciónes Web
+    Ruth Martínez Domínguez
+    Actividades HTML
+    Formulario #2
+    Carlos Antonio Sánchez Canul
+    3 Cuatrimestre
+    3°B
+    1 Parcial
+    Domingo 12 de mayo del 2024
+*/ 
+
+/* Estilos para el cuerpo del documento */
+body{
+    margin: 0%;
+    padding: 0;
+    background: url(Nebulosa.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans sans-serif;
+}

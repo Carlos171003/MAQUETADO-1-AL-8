@@ -1,0 +1,22 @@
+/* 
+    Universidad Tecnológica Metropolitana
+    Aplicaciónes Web
+    Ruth Martínez Domínguez
+    Actividades HTML
+    Formulario #1
+    Carlos Antonio Sánchez Canul
+    3 Cuatrimestre
+    3°B
+    1 Parcial
+    Domingo 12 de mayo del 2024
+*/ 
+
+/* Estilos para el cuerpo del documento HTML */
+body{
+    margin: 0%; /* Establece el margen del cuerpo a 0% */
+    padding: 0; /* Establece el relleno del cuerpo a 0 */
+    background: url(AVION.jpg); /* Establece una imagen de fondo para el cuerpo */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para que cubra todo el cuerpo */
+    background-position: center; /* Posiciona la imagen de fondo en el centro del cuerpo */
+    font-family: sans sans-serif; /* Define la familia de fuentes para el texto dentro del cuerpo */
+}

@@ -1,0 +1,144 @@
+/* 
+    Universidad Tecnológica Metropolitana
+    Aplicaciónes Web
+    Ruth Martínez Domínguez
+    Actividades HTML
+    Maquetado #2
+    Carlos Antonio Sánchez Canul
+    3 Cuatrimestre
+    3°B
+    1 Parcial
+    Lunes 13 de mayo del 2024
+*/ 
+
+/* Establece un margen de 4px y un relleno de 0 para todos los elementos */
+* {
+  margin: 4px;
+  padding: 0;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  width: 750px;
+  height: 250px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+/* Estilos para la barra de navegación */
+.nav {
+  display: flex;
+  min-height: 50px;
+  justify-content: space-between;
+  background: #1bbb30;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Estilos para una caja genérica */
+.box {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #50c0ec;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el encabezado */
+.header {
+  display: flex;
+  min-height: 250px;
+  justify-content: space-between;
+  background: #800020;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 250px; /* Cambiado a 250px */
+}
+
+/* Estilos para el banner */
+.banner {
+  display: flex;
+  width: 800px;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el contenedor */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para el logotipo */
+.logo {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el contenido principal */
+.main {
+  display: flex;
+  height: 400px; /* Cambiado a 400px */
+  justify-content: space-between;
+  background: #0A3410;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+/* Estilos para las barras laterales */
+.aside,
+.article {
+  display: flex;
+  width: 350px; /* Ancho cambiado a 350px */
+  height: 280px; /* Mantenido en 280px */
+  background-color: #fff;
+  border: 1px solid #191970;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  display: flex;
+  width: 750px;
+  height: 50px;
+  float: left;
+  background-color: #191970;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media Query para pantallas con un ancho máximo de 750px */
+@media (max-width: 750px) {
+  .nav {
+    flex-direction: column;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .contenedor {
+    flex-direction: column;
+  }
+  /* Cambiar el ancho de .aside y .article al ancho completo */
+  .aside,
+  .article {
+    width: 100%;
+  }
+}

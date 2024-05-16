@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Formulario</title>
+
+</head>
+<body>
+   
+    <!-- Se abre el formulario con el método GET y la acción que dirige a datos.php -->
+    <form action="datos.php" method="get">
+        <!-- Se define el estilo CSS en línea para el formulario -->
+        <style>
+            #formulario {
+                border: 5px solid black;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            div {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        </style>
+        <!-- Se crea un div contenedor para agrupar los elementos del formulario -->
+        <div id="formulario">
+            <!-- Se crean diversos grupos de elementos con etiquetas label e input para recopilar información -->
+            <div>
+                <label for="Apellido">Apellido:</label>
+                <input type="text" placeholder="Apellido" name="Apellido" id="Apellido">
+            </div>
+        
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" placeholder="Solo Nombre" name="Nombre" id="Nombre">
+            </div>
+        
+            <div>
+                <label for="Fecha De Nacimiento">Fecha De Nacimiento:</label>
+                <input type="date">
+            </div>
+        
+            <div>
+                <label for="Ciudad De Nacimiento">Ciudad De Nacimiento:</label>
+                <input type="text" placeholder="Ciudad De Nacimiento">
+            </div>
+        
+            <div>
+                <!-- Se crea un campo de selección para el país de nacimiento -->
+                <form>
+                    País De Nacimiento:
+                    <select>
+                        <option>México</option>
+                        <option>Estados Unidos</option>
+                        <option>Canadá</option>
+                        <option>Reino Unido</option>
+                        <option>Francia</option>
+                        <option>Italia</option>
+                        <option>Alemania</option>
+                        <option>Brasil</option>
+                        <option>China</option>
+                        <option>Japón</option>
+                        <option>Rusia</option>
+                        <option>India</option>
+                        <option>Australia</option>
+                    </select>
+                </form>
+            </div>
+        
+            <div>
+                <!-- Se crea un campo de selección para la nacionalidad -->
+                <form>
+                    Nacionalidad:
+                    <select>
+                        <option>Mexicano</option>
+                        <option>Estadounidense</option>
+                        <option>Canadiense</option>
+                        <option>Británico</option>
+                        <option>Francés</option>
+                        <option>Italiano</option>
+                        <option>Alemán</option>
+                        <option>Brasileño</option>
+                        <option>Chino</option>
+                        <option>Japonés</option>
+                        <option>Ruso</option>
+                        <option>Indio</option>
+                        <option>Australiano</option>
+                    </select>
+                </form>
+            </div>
+        
+            <div>
+                <label for="Número De pasaporte">Número De pasaporte:</label>
+                <input type="text" placeholder="Número De pasaporte">
+            </div>
+        
+            <div>
+                <!-- Se crea un campo de selección para el país donde se ha emitido el pasaporte -->
+                <form>
+                    País Donde Se Ha Emitido Su Pasaporte:
+                    <select>
+                        <option>México</option>
+                        <option>Estados Unidos</option>
+                        <option>Canadá</option>
+                        <option>Reino Unido</option>
+                        <option>Francia</option>
+                        <option>Italia</option>
+                        <option>Alemania</option>
+                        <option>Brasil</option>
+                        <option>China</option>
+                        <option>Japón</option>
+                        <option>Rusia</option>
+                        <option>India</option>
+                        <option>Australia</option>
+                    </select>
+                </form>
+            </div>
+        
+            <div>
+                <label for="Fecha De Emisión Del Pasaporte">Fecha De Emisión Del Pasaporte:</label>
+                <input type="date">
+            </div>
+        
+            <div>
+                <label for="Fecha De Vencimiento Del Pasaporte">Fecha De Vencimiento Del Pasaporte:</label>
+                <input type="date">
+            </div>
+        </div>
+        
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* 
+    Universidad Tecnológica Metropolitana
+    Aplicaciónes Web
+    Ruth Martínez Domínguez
+    Actividades HTML
+    Invitación
+    Carlos Antonio Sánchez Canul
+    3 Cuatrimestre
+    3°B
+    1 Parcial
+    Sabado 11 de mayo del 2024
+*/ 
+
+/* Establece que no haya ningún margen en ningún elemento */
+*{
+    margin: 0;
+}
+
+/* Estilos para elementos con la clase "contenedor" */
+.contenedor {
+    background-color: aqua; /* Fondo de color aqua */
+    width: 150vw; /* Ancho del 150% del ancho de la ventana */
+    height: 155vh; /* Altura del 155% de la altura de la ventana */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para elementos <p> (párrafos) */
+p {
+    margin: 10px 0; /* Margen superior e inferior de 10px y ningún margen izquierdo o derecho */
+}

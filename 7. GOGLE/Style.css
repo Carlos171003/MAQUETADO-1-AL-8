@@ -1,0 +1,57 @@
+/* 
+    Universidad Tecnológica Metropolitana
+    Aplicaciónes Web
+    Ruth Martínez Domínguez
+    Actividades HTML
+    GOGLE
+    Carlos Antonio Sánchez Canul
+    3 Cuatrimestre
+    3°B
+    1 Parcial
+    Lunes 13 de mayo del 2024
+*/ 
+
+body {
+    font-family: Arial, sans-serif; /* Define la fuente del texto para todo el cuerpo de la página */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+
+header {
+    background-color: #f2f2f2; /* Establece el color de fondo del encabezado */
+    padding: 20px; /* Añade un relleno de 20px alrededor del encabezado */
+}
+
+.center {
+    display: flex; /* Utiliza el modelo de caja flexible para el centrado */
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+}
+
+header img {
+    height: 30px; /* Establece la altura de la imagen del encabezado */
+    margin-right: 10px; /* Añade un margen a la derecha de la imagen */
+}
+
+form {
+    display: flex; /* Utiliza el modelo de caja flexible para el formulario */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+}
+
+input[type="text"] {
+    width: 300px; /* Establece el ancho del campo de entrada de texto */
+    padding: 8px; /* Añade un relleno de 8px alrededor del campo de entrada de texto */
+    border: 1px solid #ccc; /* Establece un borde sólido de 1px de color gris claro */
+    border-radius: 5px; /* Establece un radio de borde de 5px para bordes redondeados */
+    font-size: 16px; /* Establece el tamaño de fuente del texto */
+}
+
+button {
+    padding: 8px 20px; /* Añade un relleno de 8px arriba y abajo, y 20px a la izquierda y a la derecha */
+    background-color: #1a73e8; /* Establece el color de fondo del botón */
+    color: white; /* Establece el color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Establece un radio de borde de 5px para bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al puntero cuando pasa sobre el botón */
+    font-size: 16px; /* Establece el tamaño de fuente del texto */
+}

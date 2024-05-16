@@ -1,0 +1,181 @@
+/* 
+    Universidad Tecnológica Metropolitana
+    Aplicaciónes Web
+    Ruth Martínez Domínguez
+    Actividades HTML
+    Maquetado #1
+    Carlos Antonio Sánchez Canul
+    3 Cuatrimestre
+    3°B
+    1 Parcial
+    Domingo 12 de mayo del 2024
+*/ 
+
+/* Establece un margen de 4px y un relleno de 0 para todos los elementos */
+* {
+  margin: 4px;
+  padding: 0;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  width: 1000px;
+  height: 950px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+/* Estilos para la barra de navegación */
+.nav {
+  display: flex;
+  min-height: 100px;
+  justify-content: space-between;
+  background: #1bbb30;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Estilos para una caja genérica */
+.box {
+  display: flex;
+  width: 200px;
+  height: 100px;
+  background: #ffffff;
+  border: 1px solid #50c0ec;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el encabezado */
+.header {
+  display: flex;
+  min-height: 300px;
+  justify-content: space-between;
+  background: #39b0d4;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Estilos para el banner */
+.banner {
+  display: flex;
+  width: 800px;
+  height: 300px;
+  background-color: #fff;
+  border: 1px solid #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el contenedor principal */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para el logo */
+.logo {
+  display: flex;
+  width: 200px;
+  height: 92px;
+  background-color: #fff;
+  border: 1px solid #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el área de inicio de sesión */
+.login {
+  display: flex;
+  width: 200px;
+  height: 92px;
+  background-color: #fff;
+  border: 1px solid #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el formulario */
+.form {
+  display: flex;
+  width: 200px;
+  height: 92px;
+  background-color: #fff;
+  border: 1px solid #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el contenido principal */
+.main {
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+  background: #8d928d;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+/* Estilos para la barra lateral */
+.aside {
+  display: flex;
+  width: 250px;
+  height: 450px;
+  background-color: #fff;
+  border: 1px solid #d4ff12;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el artículo principal */
+.article {
+  display: flex;
+  width: 600px;
+  height: 450px;
+  background-color: #fff;
+  border: 1px solid #d4ff12;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para la barra lateral derecha */
+.asidederecha {
+  display: flex;
+  width: 280px;
+  height: 450px;
+  background-color: #fff;
+  border: 1px solid #d4ff12;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  display: flex;
+  width: 1000px;
+  height: 50px;
+  float: left;
+  background-color: #f7c900;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media Query para pantallas con un ancho máximo de 700px */
+@media (max-width:700px) {
+  .nav {
+      flex-direction: column;
+  }
+  .header {
+      flex-direction: column;
+  }
+  .main {
+      flex-direction: column;
+  }
+  .contenedor {
+      flex-direction: column;
+  }
+}
